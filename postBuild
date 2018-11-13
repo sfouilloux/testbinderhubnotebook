@@ -1,0 +1,6 @@
+jupyter contrib nbextension install --user
+jupyter serverextension enable --py githubcommit
+jupyter nbextension install --py githubcommit
+jupyter nbextension enable --py githubcommit
+
+
