@@ -1,4 +1,5 @@
-#!/bin/bash.
+#!/bin/bash
+
 sudo jupyter contrib nbextension install --user
 sudo jupyter serverextension enable --py githubcommit
 sudo jupyter nbextension install --py githubcommit
