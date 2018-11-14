@@ -1,8 +1,13 @@
 #!/bin/bash
 
 #jupyter contrib nbextension install --user
+
+#enable githubcommit extension for all notebooks
+
 jupyter serverextension enable --py githubcommit
 jupyter nbextension install --py githubcommit
 jupyter nbextension enable --py githubcommit
+
+
 
 
