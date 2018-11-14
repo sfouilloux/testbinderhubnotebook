@@ -8,6 +8,9 @@ jupyter serverextension enable --py githubcommit
 jupyter nbextension install --py githubcommit
 jupyter nbextension enable --py githubcommit
 
+jupyter serverextension enable --py nbdime
+jupyter nbextension install --py nbdime
+jupyter nbextension enable --py nbdime
 
 
 
