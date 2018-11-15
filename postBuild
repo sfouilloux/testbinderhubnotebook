@@ -16,5 +16,6 @@ jupyter serverextension enable --py nbdime
 jupyter nbextension install --py nbdime
 jupyter nbextension enable --py nbdime
 
+sudo
 
 
